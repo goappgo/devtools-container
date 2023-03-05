@@ -6,8 +6,10 @@
   - so apt-get install
 
 ## Build the container
+```bash
 docker container rm gagdevtools
 docker build -t goappgo-devtools:latest .
+```
 
 ## Run the Container
 
